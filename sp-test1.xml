@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_wguzfbp80bmqhcmng1irntkftbqnvqord4qr7lm" entityID="http://127.0.0.1:81/esc-sso/sp/callback?client_name=1000004" validUntil="2040-05-22T03:55:12.649Z">
+    <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+    </md:Extensions>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
+        <md:Extensions xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init">
+            <init:RequestInitiator Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="http://127.0.0.1:81/esc-sso/sp/callback?client_name=1000004"/>
+        </md:Extensions>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDUzCCAjugAwIBAgIEPs5ITTANBgkqhkiG9w0BAQsFADBaMQ0wCwYDVQQGEwR6aG91MQ0wCwYD
+VQQIEwR6aG91MQ0wCwYDVQQHEwR6aG91MQ0wCwYDVQQKEwR6aG91MQ0wCwYDVQQLEwR6aG91MQ0w
+CwYDVQQDEwR6aG91MB4XDTIwMDUwNTE2MzU1MloXDTMwMDUwMzE2MzU1MlowWjENMAsGA1UEBhME
+emhvdTENMAsGA1UECBMEemhvdTENMAsGA1UEBxMEemhvdTENMAsGA1UEChMEemhvdTENMAsGA1UE
+CxMEemhvdTENMAsGA1UEAxMEemhvdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIDM
+7TrPgAbr4RuTkkDR5H9fELBuboepOKKpXokvoJWtAOJPefHjxVVD73esZLP45a5Z4QkxnW4Y+3qc
+nO5qLGRST6NZk5+7eWgWl/lX3YpROCX4k4ON7XBzObUQVLNkAMdVfnNOafyeGqejv95K1bN8n4b8
+WF4sZQszNFys//bTEIl7RBQZ73/rKqU2hr16AYu2w2FAJrTgKDLlcPlusFNwOh6D0nBOr0jmgdq2
+xsal6wNNZe+rBYkCutQ6Htf1ZVWPzVWzsDWnKCDIfLvziCAerOhjFtdKI4bS/OeSN+a0K7RJ1c0f
+C0Kd7hV1mb3gtEcEW8baJj3dLnfoOtRwiL8CAwEAAaMhMB8wHQYDVR0OBBYEFIkGiZnRPf5uY/t9
+qjHqsMVnpiGiMA0GCSqGSIb3DQEBCwUAA4IBAQA4thLtfK0rur1WF24ljt8obACXNZFj9D5hnT2F
+fKDSEyiZTJIelSdRctQGfvq6mTtWSDkxMnSV+wGnZ0Jr7VeAIm58nkHfHxLgun4Y+b2duHRZQCCQ
+ba5JJlSFONbv1r4XVTVylDzmmA+h5dElEiGAdcK8N1WM9nEUbtAOoSpoGwlwbLXpXZ19DwX1nnrT
+GKl3OH/YcODjYW7tn17r+lRmQ4HKxweN4u//d+7kTFCEyOeKxQ/mixKhsFO5cSdYmGSFCqEYoJvn
+LP8+kouWF55HG5/huEG16fPd6R7Vtx8z0oCAj+XOs+M+VpfkTHJhmxoqRFOouED4SgMoCPnqDNz+</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDUzCCAjugAwIBAgIEPs5ITTANBgkqhkiG9w0BAQsFADBaMQ0wCwYDVQQGEwR6aG91MQ0wCwYD
+VQQIEwR6aG91MQ0wCwYDVQQHEwR6aG91MQ0wCwYDVQQKEwR6aG91MQ0wCwYDVQQLEwR6aG91MQ0w
+CwYDVQQDEwR6aG91MB4XDTIwMDUwNTE2MzU1MloXDTMwMDUwMzE2MzU1MlowWjENMAsGA1UEBhME
+emhvdTENMAsGA1UECBMEemhvdTENMAsGA1UEBxMEemhvdTENMAsGA1UEChMEemhvdTENMAsGA1UE
+CxMEemhvdTENMAsGA1UEAxMEemhvdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIDM
+7TrPgAbr4RuTkkDR5H9fELBuboepOKKpXokvoJWtAOJPefHjxVVD73esZLP45a5Z4QkxnW4Y+3qc
+nO5qLGRST6NZk5+7eWgWl/lX3YpROCX4k4ON7XBzObUQVLNkAMdVfnNOafyeGqejv95K1bN8n4b8
+WF4sZQszNFys//bTEIl7RBQZ73/rKqU2hr16AYu2w2FAJrTgKDLlcPlusFNwOh6D0nBOr0jmgdq2
+xsal6wNNZe+rBYkCutQ6Htf1ZVWPzVWzsDWnKCDIfLvziCAerOhjFtdKI4bS/OeSN+a0K7RJ1c0f
+C0Kd7hV1mb3gtEcEW8baJj3dLnfoOtRwiL8CAwEAAaMhMB8wHQYDVR0OBBYEFIkGiZnRPf5uY/t9
+qjHqsMVnpiGiMA0GCSqGSIb3DQEBCwUAA4IBAQA4thLtfK0rur1WF24ljt8obACXNZFj9D5hnT2F
+fKDSEyiZTJIelSdRctQGfvq6mTtWSDkxMnSV+wGnZ0Jr7VeAIm58nkHfHxLgun4Y+b2duHRZQCCQ
+ba5JJlSFONbv1r4XVTVylDzmmA+h5dElEiGAdcK8N1WM9nEUbtAOoSpoGwlwbLXpXZ19DwX1nnrT
+GKl3OH/YcODjYW7tn17r+lRmQ4HKxweN4u//d+7kTFCEyOeKxQ/mixKhsFO5cSdYmGSFCqEYoJvn
+LP8+kouWF55HG5/huEG16fPd6R7Vtx8z0oCAj+XOs+M+VpfkTHJhmxoqRFOouED4SgMoCPnqDNz+</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://127.0.0.1:81/esc-sso/sp/callback?client_name=1000004" index="0"/>
+    </md:SPSSODescriptor>
+</md:EntityDescriptor>
